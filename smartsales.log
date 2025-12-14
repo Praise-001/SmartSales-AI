@@ -1,0 +1,1004 @@
+2025-12-13 09:43:13,678 - app.main - INFO - Environment: development
+2025-12-13 09:43:13,679 - app.main - INFO - Debug Mode: True
+2025-12-13 09:43:14,032 - aiosqlite - DEBUG - executing <function connect.<locals>.connector at 0x0000023E1F77F740>
+2025-12-13 09:43:14,034 - aiosqlite - DEBUG - operation <function connect.<locals>.connector at 0x0000023E1F77F740> completed
+2025-12-13 09:43:14,037 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000023E1F7756C0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000023E1F77EA20>, deterministic=True)
+2025-12-13 09:43:14,041 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000023E1F7756C0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x0000023E1F77EA20>, deterministic=True) completed
+2025-12-13 09:43:14,043 - aiosqlite - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000023E1F7756C0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-12-13 09:43:14,045 - aiosqlite - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x0000023E1F7756C0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-12-13 09:43:14,048 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,049 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,050 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F784E40>, 'PRAGMA read_uncommitted', [])
+2025-12-13 09:43:14,052 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F784E40>, 'PRAGMA read_uncommitted', []) completed
+2025-12-13 09:43:14,054 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F784E40>)
+2025-12-13 09:43:14,055 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F784E40>) completed
+2025-12-13 09:43:14,057 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F784E40>)
+2025-12-13 09:43:14,058 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F784E40>) completed
+2025-12-13 09:43:14,060 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,062 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,065 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-13 09:43:14,071 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("users")
+2025-12-13 09:43:14,077 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,079 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,079 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,082 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("users")', ())
+2025-12-13 09:43:14,085 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("users")', ()) completed
+2025-12-13 09:43:14,088 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,090 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,095 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,100 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,103 - sqlalchemy.engine.Engine - INFO - PRAGMA temp.table_info("users")
+2025-12-13 09:43:14,104 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,107 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,109 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,111 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("users")', ())
+2025-12-13 09:43:14,116 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("users")', ()) completed
+2025-12-13 09:43:14,118 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,120 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,122 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,122 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,125 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("business_users")
+2025-12-13 09:43:14,126 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,128 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,134 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,137 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("business_users")', ())
+2025-12-13 09:43:14,141 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("business_users")', ()) completed
+2025-12-13 09:43:14,142 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,147 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,149 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,153 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,155 - sqlalchemy.engine.Engine - INFO - PRAGMA temp.table_info("business_users")
+2025-12-13 09:43:14,160 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,162 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,163 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,165 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("business_users")', ())
+2025-12-13 09:43:14,166 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("business_users")', ()) completed
+2025-12-13 09:43:14,168 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,169 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,170 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,184 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,186 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("businesses")
+2025-12-13 09:43:14,187 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,189 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,191 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,192 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("businesses")', ())
+2025-12-13 09:43:14,193 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("businesses")', ()) completed
+2025-12-13 09:43:14,201 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,202 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,204 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,209 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,212 - sqlalchemy.engine.Engine - INFO - PRAGMA temp.table_info("businesses")
+2025-12-13 09:43:14,213 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,215 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,215 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,221 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("businesses")', ())
+2025-12-13 09:43:14,222 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("businesses")', ()) completed
+2025-12-13 09:43:14,225 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,226 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,227 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,227 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,229 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("product_categories")
+2025-12-13 09:43:14,231 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,233 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,234 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,246 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("product_categories")', ())
+2025-12-13 09:43:14,248 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("product_categories")', ()) completed
+2025-12-13 09:43:14,253 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,254 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,256 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,258 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,260 - sqlalchemy.engine.Engine - INFO - PRAGMA temp.table_info("product_categories")
+2025-12-13 09:43:14,262 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,267 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,270 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,271 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("product_categories")', ())
+2025-12-13 09:43:14,272 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("product_categories")', ()) completed
+2025-12-13 09:43:14,275 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,276 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,277 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,278 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,280 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("products")
+2025-12-13 09:43:14,281 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,284 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,290 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,292 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("products")', ())
+2025-12-13 09:43:14,295 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("products")', ()) completed
+2025-12-13 09:43:14,306 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,316 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,318 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,320 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,321 - sqlalchemy.engine.Engine - INFO - PRAGMA temp.table_info("products")
+2025-12-13 09:43:14,325 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,335 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,336 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,338 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("products")', ())
+2025-12-13 09:43:14,339 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("products")', ()) completed
+2025-12-13 09:43:14,345 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,348 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,351 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,352 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,354 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("product_variants")
+2025-12-13 09:43:14,355 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,357 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,358 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,359 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("product_variants")', ())
+2025-12-13 09:43:14,367 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("product_variants")', ()) completed
+2025-12-13 09:43:14,369 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,375 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,379 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,388 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,392 - sqlalchemy.engine.Engine - INFO - PRAGMA temp.table_info("product_variants")
+2025-12-13 09:43:14,418 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,461 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,465 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,466 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("product_variants")', ())
+2025-12-13 09:43:14,469 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("product_variants")', ()) completed
+2025-12-13 09:43:14,471 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,472 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,475 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,477 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,478 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("customers")
+2025-12-13 09:43:14,485 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,487 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,487 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,492 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("customers")', ())
+2025-12-13 09:43:14,495 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("customers")', ()) completed
+2025-12-13 09:43:14,497 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,500 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,502 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,504 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,505 - sqlalchemy.engine.Engine - INFO - PRAGMA temp.table_info("customers")
+2025-12-13 09:43:14,706 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,842 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,852 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,856 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("customers")', ())
+2025-12-13 09:43:14,858 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("customers")', ()) completed
+2025-12-13 09:43:14,860 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,861 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,866 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,867 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,869 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("conversations")
+2025-12-13 09:43:14,878 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,879 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,880 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,889 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("conversations")', ())
+2025-12-13 09:43:14,890 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("conversations")', ()) completed
+2025-12-13 09:43:14,892 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,896 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,897 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,898 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,899 - sqlalchemy.engine.Engine - INFO - PRAGMA temp.table_info("conversations")
+2025-12-13 09:43:14,977 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,979 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:14,980 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:14,981 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("conversations")', ())
+2025-12-13 09:43:14,982 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("conversations")', ()) completed
+2025-12-13 09:43:14,983 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,987 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,989 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:14,992 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:14,993 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("messages")
+2025-12-13 09:43:14,995 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:14,997 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,000 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,003 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("messages")', ())
+2025-12-13 09:43:15,006 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("messages")', ()) completed
+2025-12-13 09:43:15,009 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,019 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,021 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,022 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,026 - sqlalchemy.engine.Engine - INFO - PRAGMA temp.table_info("messages")
+2025-12-13 09:43:15,028 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:15,051 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,059 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,063 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("messages")', ())
+2025-12-13 09:43:15,068 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("messages")', ()) completed
+2025-12-13 09:43:15,070 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,071 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,087 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,090 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,094 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("conversation_feedback")
+2025-12-13 09:43:15,100 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:15,101 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,102 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,112 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("conversation_feedback")', ())
+2025-12-13 09:43:15,125 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA main.table_info("conversation_feedback")', ()) completed
+2025-12-13 09:43:15,134 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,135 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,137 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,150 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,151 - sqlalchemy.engine.Engine - INFO - PRAGMA temp.table_info("conversation_feedback")
+2025-12-13 09:43:15,153 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-13 09:43:15,154 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,160 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,161 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("conversation_feedback")', ())
+2025-12-13 09:43:15,162 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'PRAGMA temp.table_info("conversation_feedback")', ()) completed
+2025-12-13 09:43:15,164 - aiosqlite - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,170 - aiosqlite - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,174 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,181 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,191 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE users (
+	email VARCHAR(255) NOT NULL, 
+	phone_number VARCHAR(20), 
+	password_hash VARCHAR(255) NOT NULL, 
+	first_name VARCHAR(100) NOT NULL, 
+	last_name VARCHAR(100) NOT NULL, 
+	display_name VARCHAR(100), 
+	avatar_url VARCHAR(500), 
+	role VARCHAR(11) NOT NULL, 
+	status VARCHAR(20) NOT NULL, 
+	email_verified BOOLEAN NOT NULL, 
+	phone_verified BOOLEAN NOT NULL, 
+	verification_token VARCHAR(255), 
+	last_login_at DATETIME, 
+	last_login_ip VARCHAR(50), 
+	failed_login_attempts VARCHAR(10) NOT NULL, 
+	locked_until DATETIME, 
+	preferred_language VARCHAR(10) NOT NULL, 
+	timezone VARCHAR(50) NOT NULL, 
+	id VARCHAR(36) NOT NULL, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	is_deleted BOOLEAN NOT NULL, 
+	deleted_at DATETIME, 
+	PRIMARY KEY (id)
+)
+
+
+2025-12-13 09:43:15,207 - sqlalchemy.engine.Engine - INFO - [no key 0.01661s] ()
+2025-12-13 09:43:15,210 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,211 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,213 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, '\nCREATE TABLE users (\n\temail VARCHAR(255) NOT NULL, \n\tphone_number VARCHAR(20), \n\tpassword_hash VARCHAR(255) NOT NULL, \n\tfirst_name VARCHAR(100) NOT NULL, \n\tlast_name VARCHAR(100) NOT NULL, \n\tdisplay_name VARCHAR(100), \n\tavatar_url VARCHAR(500), \n\trole VARCHAR(11) NOT NULL, \n\tstatus VARCHAR(20) NOT NULL, \n\temail_verified BOOLEAN NOT NULL, \n\tphone_verified BOOLEAN NOT NULL, \n\tverification_token VARCHAR(255), \n\tlast_login_at DATETIME, \n\tlast_login_ip VARCHAR(50), \n\tfailed_login_attempts VARCHAR(10) NOT NULL, \n\tlocked_until DATETIME, \n\tpreferred_language VARCHAR(10) NOT NULL, \n\ttimezone VARCHAR(50) NOT NULL, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id)\n)\n\n', ())
+2025-12-13 09:43:15,230 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, '\nCREATE TABLE users (\n\temail VARCHAR(255) NOT NULL, \n\tphone_number VARCHAR(20), \n\tpassword_hash VARCHAR(255) NOT NULL, \n\tfirst_name VARCHAR(100) NOT NULL, \n\tlast_name VARCHAR(100) NOT NULL, \n\tdisplay_name VARCHAR(100), \n\tavatar_url VARCHAR(500), \n\trole VARCHAR(11) NOT NULL, \n\tstatus VARCHAR(20) NOT NULL, \n\temail_verified BOOLEAN NOT NULL, \n\tphone_verified BOOLEAN NOT NULL, \n\tverification_token VARCHAR(255), \n\tlast_login_at DATETIME, \n\tlast_login_ip VARCHAR(50), \n\tfailed_login_attempts VARCHAR(10) NOT NULL, \n\tlocked_until DATETIME, \n\tpreferred_language VARCHAR(10) NOT NULL, \n\ttimezone VARCHAR(50) NOT NULL, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id)\n)\n\n', ()) completed
+2025-12-13 09:43:15,232 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,233 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,235 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_users_created_at ON users (created_at)
+2025-12-13 09:43:15,237 - sqlalchemy.engine.Engine - INFO - [no key 0.00218s] ()
+2025-12-13 09:43:15,242 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,243 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,244 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_users_created_at ON users (created_at)', ())
+2025-12-13 09:43:15,255 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_users_created_at ON users (created_at)', ()) completed
+2025-12-13 09:43:15,258 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,259 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,260 - sqlalchemy.engine.Engine - INFO - CREATE UNIQUE INDEX ix_users_email ON users (email)
+2025-12-13 09:43:15,262 - sqlalchemy.engine.Engine - INFO - [no key 0.00178s] ()
+2025-12-13 09:43:15,263 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,268 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,271 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE UNIQUE INDEX ix_users_email ON users (email)', ())
+2025-12-13 09:43:15,290 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE UNIQUE INDEX ix_users_email ON users (email)', ()) completed
+2025-12-13 09:43:15,292 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,293 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,295 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_users_id ON users (id)
+2025-12-13 09:43:15,296 - sqlalchemy.engine.Engine - INFO - [no key 0.00096s] ()
+2025-12-13 09:43:15,299 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,300 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,304 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_users_id ON users (id)', ())
+2025-12-13 09:43:15,316 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_users_id ON users (id)', ()) completed
+2025-12-13 09:43:15,318 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,319 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,320 - sqlalchemy.engine.Engine - INFO - CREATE UNIQUE INDEX ix_users_phone_number ON users (phone_number)
+2025-12-13 09:43:15,321 - sqlalchemy.engine.Engine - INFO - [no key 0.00099s] ()
+2025-12-13 09:43:15,328 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,330 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,332 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE UNIQUE INDEX ix_users_phone_number ON users (phone_number)', ())
+2025-12-13 09:43:15,349 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE UNIQUE INDEX ix_users_phone_number ON users (phone_number)', ()) completed
+2025-12-13 09:43:15,353 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,358 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,363 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE businesses (
+	name VARCHAR(255) NOT NULL, 
+	slug VARCHAR(255) NOT NULL, 
+	description TEXT, 
+	business_type VARCHAR(10) NOT NULL, 
+	email VARCHAR(255), 
+	phone_number VARCHAR(20), 
+	whatsapp_number VARCHAR(20), 
+	website VARCHAR(500), 
+	address_line1 VARCHAR(255), 
+	address_line2 VARCHAR(255), 
+	city VARCHAR(100), 
+	state VARCHAR(100), 
+	country VARCHAR(100) NOT NULL, 
+	postal_code VARCHAR(20), 
+	latitude FLOAT, 
+	longitude FLOAT, 
+	logo_url VARCHAR(500), 
+	banner_url VARCHAR(500), 
+	primary_color VARCHAR(7) NOT NULL, 
+	secondary_color VARCHAR(7) NOT NULL, 
+	status VARCHAR(9) NOT NULL, 
+	subscription_tier VARCHAR(12) NOT NULL, 
+	default_language VARCHAR(10) NOT NULL, 
+	supported_languages VARCHAR(100) NOT NULL, 
+	timezone VARCHAR(50) NOT NULL, 
+	currency VARCHAR(3) NOT NULL, 
+	agent_settings TEXT NOT NULL, 
+	operating_hours TEXT NOT NULL, 
+	total_products INTEGER NOT NULL, 
+	total_customers INTEGER NOT NULL, 
+	total_conversations INTEGER NOT NULL, 
+	total_sales FLOAT NOT NULL, 
+	api_key_hash VARCHAR(255), 
+	webhook_url VARCHAR(500), 
+	id VARCHAR(36) NOT NULL, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	is_deleted BOOLEAN NOT NULL, 
+	deleted_at DATETIME, 
+	PRIMARY KEY (id)
+)
+
+
+2025-12-13 09:43:15,405 - sqlalchemy.engine.Engine - INFO - [no key 0.04161s] ()
+2025-12-13 09:43:15,409 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,410 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,411 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, '\nCREATE TABLE businesses (\n\tname VARCHAR(255) NOT NULL, \n\tslug VARCHAR(255) NOT NULL, \n\tdescription TEXT, \n\tbusiness_type VARCHAR(10) NOT NULL, \n\temail VARCHAR(255), \n\tphone_number VARCHAR(20), \n\twhatsapp_number VARCHAR(20), \n\twebsite VARCHAR(500), \n\taddress_line1 VARCHAR(255), \n\taddress_line2 VARCHAR(255), \n\tcity VARCHAR(100), \n\tstate VARCHAR(100), \n\tcountry VARCHAR(100) NOT NULL, \n\tpostal_code VARCHAR(20), \n\tlatitude FLOAT, \n\tlongitude FLOAT, \n\tlogo_url VARCHAR(500), \n\tbanner_url VARCHAR(500), \n\tprimary_color VARCHAR(7) NOT NULL, \n\tsecondary_color VARCHAR(7) NOT NULL, \n\tstatus VARCHAR(9) NOT NULL, \n\tsubscription_tier VARCHAR(12) NOT NULL, \n\tdefault_language VARCHAR(10) NOT NULL, \n\tsupported_languages VARCHAR(100) NOT NULL, \n\ttimezone VARCHAR(50) NOT NULL, \n\tcurrency VARCHAR(3) NOT NULL, \n\tagent_settings TEXT NOT NULL, \n\toperating_hours TEXT NOT NULL, \n\ttotal_products INTEGER NOT NULL, \n\ttotal_customers INTEGER NOT NULL, \n\ttotal_conversations INTEGER NOT NULL, \n\ttotal_sales FLOAT NOT NULL, \n\tapi_key_hash VARCHAR(255), \n\twebhook_url VARCHAR(500), \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id)\n)\n\n', ())
+2025-12-13 09:43:15,433 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, '\nCREATE TABLE businesses (\n\tname VARCHAR(255) NOT NULL, \n\tslug VARCHAR(255) NOT NULL, \n\tdescription TEXT, \n\tbusiness_type VARCHAR(10) NOT NULL, \n\temail VARCHAR(255), \n\tphone_number VARCHAR(20), \n\twhatsapp_number VARCHAR(20), \n\twebsite VARCHAR(500), \n\taddress_line1 VARCHAR(255), \n\taddress_line2 VARCHAR(255), \n\tcity VARCHAR(100), \n\tstate VARCHAR(100), \n\tcountry VARCHAR(100) NOT NULL, \n\tpostal_code VARCHAR(20), \n\tlatitude FLOAT, \n\tlongitude FLOAT, \n\tlogo_url VARCHAR(500), \n\tbanner_url VARCHAR(500), \n\tprimary_color VARCHAR(7) NOT NULL, \n\tsecondary_color VARCHAR(7) NOT NULL, \n\tstatus VARCHAR(9) NOT NULL, \n\tsubscription_tier VARCHAR(12) NOT NULL, \n\tdefault_language VARCHAR(10) NOT NULL, \n\tsupported_languages VARCHAR(100) NOT NULL, \n\ttimezone VARCHAR(50) NOT NULL, \n\tcurrency VARCHAR(3) NOT NULL, \n\tagent_settings TEXT NOT NULL, \n\toperating_hours TEXT NOT NULL, \n\ttotal_products INTEGER NOT NULL, \n\ttotal_customers INTEGER NOT NULL, \n\ttotal_conversations INTEGER NOT NULL, \n\ttotal_sales FLOAT NOT NULL, \n\tapi_key_hash VARCHAR(255), \n\twebhook_url VARCHAR(500), \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id)\n)\n\n', ()) completed
+2025-12-13 09:43:15,438 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,443 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,449 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_businesses_whatsapp_number ON businesses (whatsapp_number)
+2025-12-13 09:43:15,466 - sqlalchemy.engine.Engine - INFO - [no key 0.01706s] ()
+2025-12-13 09:43:15,495 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,512 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,554 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_businesses_whatsapp_number ON businesses (whatsapp_number)', ())
+2025-12-13 09:43:15,593 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_businesses_whatsapp_number ON businesses (whatsapp_number)', ()) completed
+2025-12-13 09:43:15,595 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,597 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,599 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_businesses_created_at ON businesses (created_at)
+2025-12-13 09:43:15,600 - sqlalchemy.engine.Engine - INFO - [no key 0.00115s] ()
+2025-12-13 09:43:15,601 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,604 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,612 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_businesses_created_at ON businesses (created_at)', ())
+2025-12-13 09:43:15,634 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_businesses_created_at ON businesses (created_at)', ()) completed
+2025-12-13 09:43:15,639 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,647 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,651 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_businesses_name ON businesses (name)
+2025-12-13 09:43:15,654 - sqlalchemy.engine.Engine - INFO - [no key 0.00336s] ()
+2025-12-13 09:43:15,662 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,669 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,671 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_businesses_name ON businesses (name)', ())
+2025-12-13 09:43:15,686 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_businesses_name ON businesses (name)', ()) completed
+2025-12-13 09:43:15,691 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,692 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,694 - sqlalchemy.engine.Engine - INFO - CREATE UNIQUE INDEX ix_businesses_slug ON businesses (slug)
+2025-12-13 09:43:15,698 - sqlalchemy.engine.Engine - INFO - [no key 0.00430s] ()
+2025-12-13 09:43:15,699 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,702 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,711 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE UNIQUE INDEX ix_businesses_slug ON businesses (slug)', ())
+2025-12-13 09:43:15,728 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE UNIQUE INDEX ix_businesses_slug ON businesses (slug)', ()) completed
+2025-12-13 09:43:15,737 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,743 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,746 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_businesses_id ON businesses (id)
+2025-12-13 09:43:15,748 - sqlalchemy.engine.Engine - INFO - [no key 0.00200s] ()
+2025-12-13 09:43:15,750 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,750 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,752 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_businesses_id ON businesses (id)', ())
+2025-12-13 09:43:15,767 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_businesses_id ON businesses (id)', ()) completed
+2025-12-13 09:43:15,771 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,777 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,782 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE business_users (
+	user_id VARCHAR(36) NOT NULL, 
+	business_id VARCHAR(36) NOT NULL, 
+	role VARCHAR(11) NOT NULL, 
+	permissions VARCHAR(1000) NOT NULL, 
+	is_primary BOOLEAN NOT NULL, 
+	invited_at DATETIME, 
+	joined_at DATETIME, 
+	id VARCHAR(36) NOT NULL, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	is_deleted BOOLEAN NOT NULL, 
+	deleted_at DATETIME, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id), 
+	FOREIGN KEY(business_id) REFERENCES businesses (id)
+)
+
+
+2025-12-13 09:43:15,785 - sqlalchemy.engine.Engine - INFO - [no key 0.00339s] ()
+2025-12-13 09:43:15,787 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,787 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,792 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, '\nCREATE TABLE business_users (\n\tuser_id VARCHAR(36) NOT NULL, \n\tbusiness_id VARCHAR(36) NOT NULL, \n\trole VARCHAR(11) NOT NULL, \n\tpermissions VARCHAR(1000) NOT NULL, \n\tis_primary BOOLEAN NOT NULL, \n\tinvited_at DATETIME, \n\tjoined_at DATETIME, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(user_id) REFERENCES users (id), \n\tFOREIGN KEY(business_id) REFERENCES businesses (id)\n)\n\n', ())
+2025-12-13 09:43:15,808 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, '\nCREATE TABLE business_users (\n\tuser_id VARCHAR(36) NOT NULL, \n\tbusiness_id VARCHAR(36) NOT NULL, \n\trole VARCHAR(11) NOT NULL, \n\tpermissions VARCHAR(1000) NOT NULL, \n\tis_primary BOOLEAN NOT NULL, \n\tinvited_at DATETIME, \n\tjoined_at DATETIME, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(user_id) REFERENCES users (id), \n\tFOREIGN KEY(business_id) REFERENCES businesses (id)\n)\n\n', ()) completed
+2025-12-13 09:43:15,810 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,810 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,813 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_business_users_id ON business_users (id)
+2025-12-13 09:43:15,815 - sqlalchemy.engine.Engine - INFO - [no key 0.00228s] ()
+2025-12-13 09:43:15,817 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,820 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,821 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_business_users_id ON business_users (id)', ())
+2025-12-13 09:43:15,834 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_business_users_id ON business_users (id)', ()) completed
+2025-12-13 09:43:15,835 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,836 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,837 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_business_users_created_at ON business_users (created_at)
+2025-12-13 09:43:15,841 - sqlalchemy.engine.Engine - INFO - [no key 0.00331s] ()
+2025-12-13 09:43:15,842 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,844 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,849 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_business_users_created_at ON business_users (created_at)', ())
+2025-12-13 09:43:15,863 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_business_users_created_at ON business_users (created_at)', ()) completed
+2025-12-13 09:43:15,865 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,866 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,867 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_business_users_business_id ON business_users (business_id)
+2025-12-13 09:43:15,869 - sqlalchemy.engine.Engine - INFO - [no key 0.00117s] ()
+2025-12-13 09:43:15,870 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,871 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,876 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_business_users_business_id ON business_users (business_id)', ())
+2025-12-13 09:43:15,886 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_business_users_business_id ON business_users (business_id)', ()) completed
+2025-12-13 09:43:15,890 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,892 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,894 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_business_users_user_id ON business_users (user_id)
+2025-12-13 09:43:15,896 - sqlalchemy.engine.Engine - INFO - [no key 0.00115s] ()
+2025-12-13 09:43:15,910 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,911 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,913 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_business_users_user_id ON business_users (user_id)', ())
+2025-12-13 09:43:15,931 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_business_users_user_id ON business_users (user_id)', ()) completed
+2025-12-13 09:43:15,933 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,934 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,937 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE product_categories (
+	business_id VARCHAR(36) NOT NULL, 
+	parent_id VARCHAR(36), 
+	name VARCHAR(100) NOT NULL, 
+	slug VARCHAR(100) NOT NULL, 
+	description TEXT, 
+	image_url VARCHAR(500), 
+	sort_order INTEGER NOT NULL, 
+	is_featured BOOLEAN NOT NULL, 
+	id VARCHAR(36) NOT NULL, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	is_deleted BOOLEAN NOT NULL, 
+	deleted_at DATETIME, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(business_id) REFERENCES businesses (id), 
+	FOREIGN KEY(parent_id) REFERENCES product_categories (id)
+)
+
+
+2025-12-13 09:43:15,941 - sqlalchemy.engine.Engine - INFO - [no key 0.00353s] ()
+2025-12-13 09:43:15,948 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,949 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,954 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, '\nCREATE TABLE product_categories (\n\tbusiness_id VARCHAR(36) NOT NULL, \n\tparent_id VARCHAR(36), \n\tname VARCHAR(100) NOT NULL, \n\tslug VARCHAR(100) NOT NULL, \n\tdescription TEXT, \n\timage_url VARCHAR(500), \n\tsort_order INTEGER NOT NULL, \n\tis_featured BOOLEAN NOT NULL, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(business_id) REFERENCES businesses (id), \n\tFOREIGN KEY(parent_id) REFERENCES product_categories (id)\n)\n\n', ())
+2025-12-13 09:43:15,967 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, '\nCREATE TABLE product_categories (\n\tbusiness_id VARCHAR(36) NOT NULL, \n\tparent_id VARCHAR(36), \n\tname VARCHAR(100) NOT NULL, \n\tslug VARCHAR(100) NOT NULL, \n\tdescription TEXT, \n\timage_url VARCHAR(500), \n\tsort_order INTEGER NOT NULL, \n\tis_featured BOOLEAN NOT NULL, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(business_id) REFERENCES businesses (id), \n\tFOREIGN KEY(parent_id) REFERENCES product_categories (id)\n)\n\n', ()) completed
+2025-12-13 09:43:15,970 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,970 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:15,972 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_product_categories_id ON product_categories (id)
+2025-12-13 09:43:15,976 - sqlalchemy.engine.Engine - INFO - [no key 0.00338s] ()
+2025-12-13 09:43:15,977 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:15,978 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:15,979 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_product_categories_id ON product_categories (id)', ())
+2025-12-13 09:43:15,996 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_product_categories_id ON product_categories (id)', ()) completed
+2025-12-13 09:43:15,998 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:15,999 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:16,000 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_product_categories_business_id ON product_categories (business_id)
+2025-12-13 09:43:16,001 - sqlalchemy.engine.Engine - INFO - [no key 0.00101s] ()
+2025-12-13 09:43:16,002 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,003 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,004 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_product_categories_business_id ON product_categories (business_id)', ())
+2025-12-13 09:43:16,029 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_product_categories_business_id ON product_categories (business_id)', ()) completed
+2025-12-13 09:43:16,033 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:16,034 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:16,036 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_product_categories_created_at ON product_categories (created_at)
+2025-12-13 09:43:16,040 - sqlalchemy.engine.Engine - INFO - [no key 0.00328s] ()
+2025-12-13 09:43:16,050 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,052 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,053 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_product_categories_created_at ON product_categories (created_at)', ())
+2025-12-13 09:43:16,070 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, 'CREATE INDEX ix_product_categories_created_at ON product_categories (created_at)', ()) completed
+2025-12-13 09:43:16,079 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:16,081 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:16,086 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE customers (
+	business_id VARCHAR(36) NOT NULL, 
+	phone_number VARCHAR(20) NOT NULL, 
+	whatsapp_id VARCHAR(50), 
+	email VARCHAR(255), 
+	first_name VARCHAR(100), 
+	last_name VARCHAR(100), 
+	display_name VARCHAR(100), 
+	avatar_url VARCHAR(500), 
+	address TEXT, 
+	city VARCHAR(100), 
+	state VARCHAR(100), 
+	preferred_language VARCHAR(10) NOT NULL, 
+	source VARCHAR(12) NOT NULL, 
+	source_details VARCHAR(255), 
+	tier VARCHAR(8) NOT NULL, 
+	loyalty_points INTEGER NOT NULL, 
+	total_orders INTEGER NOT NULL, 
+	total_spent FLOAT NOT NULL, 
+	average_order_value FLOAT NOT NULL, 
+	last_interaction_at DATETIME, 
+	last_purchase_at DATETIME, 
+	total_conversations INTEGER NOT NULL, 
+	total_messages INTEGER NOT NULL, 
+	preferences TEXT NOT NULL, 
+	interests TEXT NOT NULL, 
+	sentiment_score FLOAT NOT NULL, 
+	tags VARCHAR(500), 
+	notes TEXT, 
+	marketing_opt_in BOOLEAN NOT NULL, 
+	id VARCHAR(36) NOT NULL, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	is_deleted BOOLEAN NOT NULL, 
+	deleted_at DATETIME, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(business_id) REFERENCES businesses (id)
+)
+
+
+2025-12-13 09:43:16,098 - sqlalchemy.engine.Engine - INFO - [no key 0.01224s] ()
+2025-12-13 09:43:16,099 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,101 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,103 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, '\nCREATE TABLE customers (\n\tbusiness_id VARCHAR(36) NOT NULL, \n\tphone_number VARCHAR(20) NOT NULL, \n\twhatsapp_id VARCHAR(50), \n\temail VARCHAR(255), \n\tfirst_name VARCHAR(100), \n\tlast_name VARCHAR(100), \n\tdisplay_name VARCHAR(100), \n\tavatar_url VARCHAR(500), \n\taddress TEXT, \n\tcity VARCHAR(100), \n\tstate VARCHAR(100), \n\tpreferred_language VARCHAR(10) NOT NULL, \n\tsource VARCHAR(12) NOT NULL, \n\tsource_details VARCHAR(255), \n\ttier VARCHAR(8) NOT NULL, \n\tloyalty_points INTEGER NOT NULL, \n\ttotal_orders INTEGER NOT NULL, \n\ttotal_spent FLOAT NOT NULL, \n\taverage_order_value FLOAT NOT NULL, \n\tlast_interaction_at DATETIME, \n\tlast_purchase_at DATETIME, \n\ttotal_conversations INTEGER NOT NULL, \n\ttotal_messages INTEGER NOT NULL, \n\tpreferences TEXT NOT NULL, \n\tinterests TEXT NOT NULL, \n\tsentiment_score FLOAT NOT NULL, \n\ttags VARCHAR(500), \n\tnotes TEXT, \n\tmarketing_opt_in BOOLEAN NOT NULL, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(business_id) REFERENCES businesses (id)\n)\n\n', ())
+2025-12-13 09:43:16,118 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F785440>, '\nCREATE TABLE customers (\n\tbusiness_id VARCHAR(36) NOT NULL, \n\tphone_number VARCHAR(20) NOT NULL, \n\twhatsapp_id VARCHAR(50), \n\temail VARCHAR(255), \n\tfirst_name VARCHAR(100), \n\tlast_name VARCHAR(100), \n\tdisplay_name VARCHAR(100), \n\tavatar_url VARCHAR(500), \n\taddress TEXT, \n\tcity VARCHAR(100), \n\tstate VARCHAR(100), \n\tpreferred_language VARCHAR(10) NOT NULL, \n\tsource VARCHAR(12) NOT NULL, \n\tsource_details VARCHAR(255), \n\ttier VARCHAR(8) NOT NULL, \n\tloyalty_points INTEGER NOT NULL, \n\ttotal_orders INTEGER NOT NULL, \n\ttotal_spent FLOAT NOT NULL, \n\taverage_order_value FLOAT NOT NULL, \n\tlast_interaction_at DATETIME, \n\tlast_purchase_at DATETIME, \n\ttotal_conversations INTEGER NOT NULL, \n\ttotal_messages INTEGER NOT NULL, \n\tpreferences TEXT NOT NULL, \n\tinterests TEXT NOT NULL, \n\tsentiment_score FLOAT NOT NULL, \n\ttags VARCHAR(500), \n\tnotes TEXT, \n\tmarketing_opt_in BOOLEAN NOT NULL, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(business_id) REFERENCES businesses (id)\n)\n\n', ()) completed
+2025-12-13 09:43:16,120 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>)
+2025-12-13 09:43:16,121 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F785440>) completed
+2025-12-13 09:43:16,123 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_customers_phone_number ON customers (phone_number)
+2025-12-13 09:43:16,125 - sqlalchemy.engine.Engine - INFO - [no key 0.00194s] ()
+2025-12-13 09:43:16,127 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,136 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,137 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_customers_phone_number ON customers (phone_number)', ())
+2025-12-13 09:43:16,150 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_customers_phone_number ON customers (phone_number)', ()) completed
+2025-12-13 09:43:16,152 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,153 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,154 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_customers_created_at ON customers (created_at)
+2025-12-13 09:43:16,156 - sqlalchemy.engine.Engine - INFO - [no key 0.00117s] ()
+2025-12-13 09:43:16,159 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,160 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,163 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_customers_created_at ON customers (created_at)', ())
+2025-12-13 09:43:16,174 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_customers_created_at ON customers (created_at)', ()) completed
+2025-12-13 09:43:16,177 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,179 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,181 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_customers_whatsapp_id ON customers (whatsapp_id)
+2025-12-13 09:43:16,182 - sqlalchemy.engine.Engine - INFO - [no key 0.00100s] ()
+2025-12-13 09:43:16,183 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,184 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,185 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_customers_whatsapp_id ON customers (whatsapp_id)', ())
+2025-12-13 09:43:16,196 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_customers_whatsapp_id ON customers (whatsapp_id)', ()) completed
+2025-12-13 09:43:16,197 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,198 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,200 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_customers_id ON customers (id)
+2025-12-13 09:43:16,202 - sqlalchemy.engine.Engine - INFO - [no key 0.00253s] ()
+2025-12-13 09:43:16,205 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,208 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,209 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_customers_id ON customers (id)', ())
+2025-12-13 09:43:16,220 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_customers_id ON customers (id)', ()) completed
+2025-12-13 09:43:16,222 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,225 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,226 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_customers_business_id ON customers (business_id)
+2025-12-13 09:43:16,227 - sqlalchemy.engine.Engine - INFO - [no key 0.00120s] ()
+2025-12-13 09:43:16,228 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,230 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,231 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_customers_business_id ON customers (business_id)', ())
+2025-12-13 09:43:16,243 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_customers_business_id ON customers (business_id)', ()) completed
+2025-12-13 09:43:16,246 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,247 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,259 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE products (
+	business_id VARCHAR(36) NOT NULL, 
+	category_id VARCHAR(36), 
+	name VARCHAR(255) NOT NULL, 
+	slug VARCHAR(255) NOT NULL, 
+	sku VARCHAR(100), 
+	barcode VARCHAR(100), 
+	description TEXT, 
+	short_description VARCHAR(500), 
+	features TEXT, 
+	specifications TEXT, 
+	price FLOAT NOT NULL, 
+	compare_at_price FLOAT, 
+	cost_price FLOAT, 
+	currency VARCHAR(3) NOT NULL, 
+	tax_rate FLOAT NOT NULL, 
+	is_taxable BOOLEAN NOT NULL, 
+	quantity INTEGER NOT NULL, 
+	low_stock_threshold INTEGER NOT NULL, 
+	track_inventory BOOLEAN NOT NULL, 
+	allow_backorder BOOLEAN NOT NULL, 
+	status VARCHAR(12) NOT NULL, 
+	image_url VARCHAR(500), 
+	images TEXT, 
+	video_url VARCHAR(500), 
+	meta_title VARCHAR(255), 
+	meta_description VARCHAR(500), 
+	tags VARCHAR(500), 
+	embedding_vector TEXT, 
+	ai_description TEXT, 
+	keywords TEXT, 
+	view_count INTEGER NOT NULL, 
+	order_count INTEGER NOT NULL, 
+	rating FLOAT NOT NULL, 
+	review_count INTEGER NOT NULL, 
+	sort_order INTEGER NOT NULL, 
+	is_featured BOOLEAN NOT NULL, 
+	is_bestseller BOOLEAN NOT NULL, 
+	id VARCHAR(36) NOT NULL, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	is_deleted BOOLEAN NOT NULL, 
+	deleted_at DATETIME, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(business_id) REFERENCES businesses (id), 
+	FOREIGN KEY(category_id) REFERENCES product_categories (id)
+)
+
+
+2025-12-13 09:43:16,277 - sqlalchemy.engine.Engine - INFO - [no key 0.01761s] ()
+2025-12-13 09:43:16,287 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,290 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,293 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, '\nCREATE TABLE products (\n\tbusiness_id VARCHAR(36) NOT NULL, \n\tcategory_id VARCHAR(36), \n\tname VARCHAR(255) NOT NULL, \n\tslug VARCHAR(255) NOT NULL, \n\tsku VARCHAR(100), \n\tbarcode VARCHAR(100), \n\tdescription TEXT, \n\tshort_description VARCHAR(500), \n\tfeatures TEXT, \n\tspecifications TEXT, \n\tprice FLOAT NOT NULL, \n\tcompare_at_price FLOAT, \n\tcost_price FLOAT, \n\tcurrency VARCHAR(3) NOT NULL, \n\ttax_rate FLOAT NOT NULL, \n\tis_taxable BOOLEAN NOT NULL, \n\tquantity INTEGER NOT NULL, \n\tlow_stock_threshold INTEGER NOT NULL, \n\ttrack_inventory BOOLEAN NOT NULL, \n\tallow_backorder BOOLEAN NOT NULL, \n\tstatus VARCHAR(12) NOT NULL, \n\timage_url VARCHAR(500), \n\timages TEXT, \n\tvideo_url VARCHAR(500), \n\tmeta_title VARCHAR(255), \n\tmeta_description VARCHAR(500), \n\ttags VARCHAR(500), \n\tembedding_vector TEXT, \n\tai_description TEXT, \n\tkeywords TEXT, \n\tview_count INTEGER NOT NULL, \n\torder_count INTEGER NOT NULL, \n\trating FLOAT NOT NULL, \n\treview_count INTEGER NOT NULL, \n\tsort_order INTEGER NOT NULL, \n\tis_featured BOOLEAN NOT NULL, \n\tis_bestseller BOOLEAN NOT NULL, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(business_id) REFERENCES businesses (id), \n\tFOREIGN KEY(category_id) REFERENCES product_categories (id)\n)\n\n', ())
+2025-12-13 09:43:16,321 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, '\nCREATE TABLE products (\n\tbusiness_id VARCHAR(36) NOT NULL, \n\tcategory_id VARCHAR(36), \n\tname VARCHAR(255) NOT NULL, \n\tslug VARCHAR(255) NOT NULL, \n\tsku VARCHAR(100), \n\tbarcode VARCHAR(100), \n\tdescription TEXT, \n\tshort_description VARCHAR(500), \n\tfeatures TEXT, \n\tspecifications TEXT, \n\tprice FLOAT NOT NULL, \n\tcompare_at_price FLOAT, \n\tcost_price FLOAT, \n\tcurrency VARCHAR(3) NOT NULL, \n\ttax_rate FLOAT NOT NULL, \n\tis_taxable BOOLEAN NOT NULL, \n\tquantity INTEGER NOT NULL, \n\tlow_stock_threshold INTEGER NOT NULL, \n\ttrack_inventory BOOLEAN NOT NULL, \n\tallow_backorder BOOLEAN NOT NULL, \n\tstatus VARCHAR(12) NOT NULL, \n\timage_url VARCHAR(500), \n\timages TEXT, \n\tvideo_url VARCHAR(500), \n\tmeta_title VARCHAR(255), \n\tmeta_description VARCHAR(500), \n\ttags VARCHAR(500), \n\tembedding_vector TEXT, \n\tai_description TEXT, \n\tkeywords TEXT, \n\tview_count INTEGER NOT NULL, \n\torder_count INTEGER NOT NULL, \n\trating FLOAT NOT NULL, \n\treview_count INTEGER NOT NULL, \n\tsort_order INTEGER NOT NULL, \n\tis_featured BOOLEAN NOT NULL, \n\tis_bestseller BOOLEAN NOT NULL, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(business_id) REFERENCES businesses (id), \n\tFOREIGN KEY(category_id) REFERENCES product_categories (id)\n)\n\n', ()) completed
+2025-12-13 09:43:16,392 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,400 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,401 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_products_name ON products (name)
+2025-12-13 09:43:16,404 - sqlalchemy.engine.Engine - INFO - [no key 0.00242s] ()
+2025-12-13 09:43:16,406 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,410 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,412 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_name ON products (name)', ())
+2025-12-13 09:43:16,427 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_name ON products (name)', ()) completed
+2025-12-13 09:43:16,432 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,434 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,437 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_products_sku ON products (sku)
+2025-12-13 09:43:16,443 - sqlalchemy.engine.Engine - INFO - [no key 0.00530s] ()
+2025-12-13 09:43:16,445 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,446 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,447 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_sku ON products (sku)', ())
+2025-12-13 09:43:16,464 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_sku ON products (sku)', ()) completed
+2025-12-13 09:43:16,467 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,468 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,470 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_products_id ON products (id)
+2025-12-13 09:43:16,471 - sqlalchemy.engine.Engine - INFO - [no key 0.00103s] ()
+2025-12-13 09:43:16,474 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,475 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,477 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_id ON products (id)', ())
+2025-12-13 09:43:16,492 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_id ON products (id)', ()) completed
+2025-12-13 09:43:16,494 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,495 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,497 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_products_business_id ON products (business_id)
+2025-12-13 09:43:16,498 - sqlalchemy.engine.Engine - INFO - [no key 0.00092s] ()
+2025-12-13 09:43:16,499 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,502 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,503 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_business_id ON products (business_id)', ())
+2025-12-13 09:43:16,519 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_business_id ON products (business_id)', ()) completed
+2025-12-13 09:43:16,522 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,523 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,527 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_products_price ON products (price)
+2025-12-13 09:43:16,528 - sqlalchemy.engine.Engine - INFO - [no key 0.00120s] ()
+2025-12-13 09:43:16,529 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,530 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,531 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_price ON products (price)', ())
+2025-12-13 09:43:16,543 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_price ON products (price)', ()) completed
+2025-12-13 09:43:16,545 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,546 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,550 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_products_status ON products (status)
+2025-12-13 09:43:16,552 - sqlalchemy.engine.Engine - INFO - [no key 0.00201s] ()
+2025-12-13 09:43:16,553 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,553 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,554 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_status ON products (status)', ())
+2025-12-13 09:43:16,568 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_status ON products (status)', ()) completed
+2025-12-13 09:43:16,570 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,571 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,572 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_products_created_at ON products (created_at)
+2025-12-13 09:43:16,573 - sqlalchemy.engine.Engine - INFO - [no key 0.00134s] ()
+2025-12-13 09:43:16,575 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,576 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,585 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_created_at ON products (created_at)', ())
+2025-12-13 09:43:16,598 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_created_at ON products (created_at)', ()) completed
+2025-12-13 09:43:16,600 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,600 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,602 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_products_slug ON products (slug)
+2025-12-13 09:43:16,604 - sqlalchemy.engine.Engine - INFO - [no key 0.00158s] ()
+2025-12-13 09:43:16,614 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,614 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,616 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_slug ON products (slug)', ())
+2025-12-13 09:43:16,629 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_slug ON products (slug)', ()) completed
+2025-12-13 09:43:16,630 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,631 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,633 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_products_category_id ON products (category_id)
+2025-12-13 09:43:16,634 - sqlalchemy.engine.Engine - INFO - [no key 0.00131s] ()
+2025-12-13 09:43:16,638 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,641 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,644 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_category_id ON products (category_id)', ())
+2025-12-13 09:43:16,660 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_products_category_id ON products (category_id)', ()) completed
+2025-12-13 09:43:16,664 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,668 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,673 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE conversations (
+	business_id VARCHAR(36) NOT NULL, 
+	customer_id VARCHAR(36) NOT NULL, 
+	session_id VARCHAR(100) NOT NULL, 
+	channel VARCHAR(8) NOT NULL, 
+	status VARCHAR(8) NOT NULL, 
+	detected_language VARCHAR(10) NOT NULL, 
+	context TEXT NOT NULL, 
+	intent VARCHAR(100), 
+	topic VARCHAR(255), 
+	message_count INTEGER NOT NULL, 
+	user_message_count INTEGER NOT NULL, 
+	assistant_message_count INTEGER NOT NULL, 
+	started_at DATETIME NOT NULL, 
+	last_message_at DATETIME, 
+	ended_at DATETIME, 
+	duration INTEGER NOT NULL, 
+	sentiment_score FLOAT NOT NULL, 
+	satisfaction_score FLOAT, 
+	resolution_status VARCHAR(50), 
+	products_discussed TEXT NOT NULL, 
+	order_created BOOLEAN NOT NULL, 
+	order_value FLOAT NOT NULL, 
+	handoff_requested BOOLEAN NOT NULL, 
+	handoff_reason VARCHAR(255), 
+	assigned_agent_id VARCHAR(36), 
+	summary TEXT, 
+	id VARCHAR(36) NOT NULL, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	is_deleted BOOLEAN NOT NULL, 
+	deleted_at DATETIME, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(business_id) REFERENCES businesses (id), 
+	FOREIGN KEY(customer_id) REFERENCES customers (id)
+)
+
+
+2025-12-13 09:43:16,696 - sqlalchemy.engine.Engine - INFO - [no key 0.02283s] ()
+2025-12-13 09:43:16,697 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,698 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,699 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, '\nCREATE TABLE conversations (\n\tbusiness_id VARCHAR(36) NOT NULL, \n\tcustomer_id VARCHAR(36) NOT NULL, \n\tsession_id VARCHAR(100) NOT NULL, \n\tchannel VARCHAR(8) NOT NULL, \n\tstatus VARCHAR(8) NOT NULL, \n\tdetected_language VARCHAR(10) NOT NULL, \n\tcontext TEXT NOT NULL, \n\tintent VARCHAR(100), \n\ttopic VARCHAR(255), \n\tmessage_count INTEGER NOT NULL, \n\tuser_message_count INTEGER NOT NULL, \n\tassistant_message_count INTEGER NOT NULL, \n\tstarted_at DATETIME NOT NULL, \n\tlast_message_at DATETIME, \n\tended_at DATETIME, \n\tduration INTEGER NOT NULL, \n\tsentiment_score FLOAT NOT NULL, \n\tsatisfaction_score FLOAT, \n\tresolution_status VARCHAR(50), \n\tproducts_discussed TEXT NOT NULL, \n\torder_created BOOLEAN NOT NULL, \n\torder_value FLOAT NOT NULL, \n\thandoff_requested BOOLEAN NOT NULL, \n\thandoff_reason VARCHAR(255), \n\tassigned_agent_id VARCHAR(36), \n\tsummary TEXT, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(business_id) REFERENCES businesses (id), \n\tFOREIGN KEY(customer_id) REFERENCES customers (id)\n)\n\n', ())
+2025-12-13 09:43:16,716 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, '\nCREATE TABLE conversations (\n\tbusiness_id VARCHAR(36) NOT NULL, \n\tcustomer_id VARCHAR(36) NOT NULL, \n\tsession_id VARCHAR(100) NOT NULL, \n\tchannel VARCHAR(8) NOT NULL, \n\tstatus VARCHAR(8) NOT NULL, \n\tdetected_language VARCHAR(10) NOT NULL, \n\tcontext TEXT NOT NULL, \n\tintent VARCHAR(100), \n\ttopic VARCHAR(255), \n\tmessage_count INTEGER NOT NULL, \n\tuser_message_count INTEGER NOT NULL, \n\tassistant_message_count INTEGER NOT NULL, \n\tstarted_at DATETIME NOT NULL, \n\tlast_message_at DATETIME, \n\tended_at DATETIME, \n\tduration INTEGER NOT NULL, \n\tsentiment_score FLOAT NOT NULL, \n\tsatisfaction_score FLOAT, \n\tresolution_status VARCHAR(50), \n\tproducts_discussed TEXT NOT NULL, \n\torder_created BOOLEAN NOT NULL, \n\torder_value FLOAT NOT NULL, \n\thandoff_requested BOOLEAN NOT NULL, \n\thandoff_reason VARCHAR(255), \n\tassigned_agent_id VARCHAR(36), \n\tsummary TEXT, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(business_id) REFERENCES businesses (id), \n\tFOREIGN KEY(customer_id) REFERENCES customers (id)\n)\n\n', ()) completed
+2025-12-13 09:43:16,721 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,721 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,723 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_conversations_created_at ON conversations (created_at)
+2025-12-13 09:43:16,730 - sqlalchemy.engine.Engine - INFO - [no key 0.00716s] ()
+2025-12-13 09:43:16,733 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,735 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,738 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversations_created_at ON conversations (created_at)', ())
+2025-12-13 09:43:16,756 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversations_created_at ON conversations (created_at)', ()) completed
+2025-12-13 09:43:16,804 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,810 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,814 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_conversations_customer_id ON conversations (customer_id)
+2025-12-13 09:43:16,816 - sqlalchemy.engine.Engine - INFO - [no key 0.00181s] ()
+2025-12-13 09:43:16,819 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,819 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,820 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversations_customer_id ON conversations (customer_id)', ())
+2025-12-13 09:43:16,829 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversations_customer_id ON conversations (customer_id)', ()) completed
+2025-12-13 09:43:16,831 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,832 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,834 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_conversations_status ON conversations (status)
+2025-12-13 09:43:16,835 - sqlalchemy.engine.Engine - INFO - [no key 0.00092s] ()
+2025-12-13 09:43:16,836 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,837 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,839 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversations_status ON conversations (status)', ())
+2025-12-13 09:43:16,852 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversations_status ON conversations (status)', ()) completed
+2025-12-13 09:43:16,854 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,855 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,858 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_conversations_business_id ON conversations (business_id)
+2025-12-13 09:43:16,862 - sqlalchemy.engine.Engine - INFO - [no key 0.00433s] ()
+2025-12-13 09:43:16,864 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,867 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,868 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversations_business_id ON conversations (business_id)', ())
+2025-12-13 09:43:16,877 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversations_business_id ON conversations (business_id)', ()) completed
+2025-12-13 09:43:16,883 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,884 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,886 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_conversations_id ON conversations (id)
+2025-12-13 09:43:16,894 - sqlalchemy.engine.Engine - INFO - [no key 0.00782s] ()
+2025-12-13 09:43:16,896 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,907 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,913 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversations_id ON conversations (id)', ())
+2025-12-13 09:43:16,922 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversations_id ON conversations (id)', ()) completed
+2025-12-13 09:43:16,926 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,926 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,931 - sqlalchemy.engine.Engine - INFO - CREATE UNIQUE INDEX ix_conversations_session_id ON conversations (session_id)
+2025-12-13 09:43:16,934 - sqlalchemy.engine.Engine - INFO - [no key 0.00298s] ()
+2025-12-13 09:43:16,935 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,936 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,937 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE UNIQUE INDEX ix_conversations_session_id ON conversations (session_id)', ())
+2025-12-13 09:43:16,948 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE UNIQUE INDEX ix_conversations_session_id ON conversations (session_id)', ()) completed
+2025-12-13 09:43:16,952 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:16,953 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:16,956 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE product_variants (
+	product_id VARCHAR(36) NOT NULL, 
+	name VARCHAR(255) NOT NULL, 
+	sku VARCHAR(100), 
+	barcode VARCHAR(100), 
+	options TEXT NOT NULL, 
+	price FLOAT, 
+	compare_at_price FLOAT, 
+	cost_price FLOAT, 
+	quantity INTEGER NOT NULL, 
+	image_url VARCHAR(500), 
+	is_active BOOLEAN NOT NULL, 
+	id VARCHAR(36) NOT NULL, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	is_deleted BOOLEAN NOT NULL, 
+	deleted_at DATETIME, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(product_id) REFERENCES products (id)
+)
+
+
+2025-12-13 09:43:16,978 - sqlalchemy.engine.Engine - INFO - [no key 0.02293s] ()
+2025-12-13 09:43:16,979 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:16,980 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:16,983 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, '\nCREATE TABLE product_variants (\n\tproduct_id VARCHAR(36) NOT NULL, \n\tname VARCHAR(255) NOT NULL, \n\tsku VARCHAR(100), \n\tbarcode VARCHAR(100), \n\toptions TEXT NOT NULL, \n\tprice FLOAT, \n\tcompare_at_price FLOAT, \n\tcost_price FLOAT, \n\tquantity INTEGER NOT NULL, \n\timage_url VARCHAR(500), \n\tis_active BOOLEAN NOT NULL, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(product_id) REFERENCES products (id)\n)\n\n', ())
+2025-12-13 09:43:17,004 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, '\nCREATE TABLE product_variants (\n\tproduct_id VARCHAR(36) NOT NULL, \n\tname VARCHAR(255) NOT NULL, \n\tsku VARCHAR(100), \n\tbarcode VARCHAR(100), \n\toptions TEXT NOT NULL, \n\tprice FLOAT, \n\tcompare_at_price FLOAT, \n\tcost_price FLOAT, \n\tquantity INTEGER NOT NULL, \n\timage_url VARCHAR(500), \n\tis_active BOOLEAN NOT NULL, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(product_id) REFERENCES products (id)\n)\n\n', ()) completed
+2025-12-13 09:43:17,014 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,016 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,018 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_product_variants_product_id ON product_variants (product_id)
+2025-12-13 09:43:17,020 - sqlalchemy.engine.Engine - INFO - [no key 0.00192s] ()
+2025-12-13 09:43:17,021 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,028 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,029 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_product_variants_product_id ON product_variants (product_id)', ())
+2025-12-13 09:43:17,043 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_product_variants_product_id ON product_variants (product_id)', ()) completed
+2025-12-13 09:43:17,045 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,046 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,052 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_product_variants_id ON product_variants (id)
+2025-12-13 09:43:17,054 - sqlalchemy.engine.Engine - INFO - [no key 0.00208s] ()
+2025-12-13 09:43:17,055 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,056 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,064 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_product_variants_id ON product_variants (id)', ())
+2025-12-13 09:43:17,130 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_product_variants_id ON product_variants (id)', ()) completed
+2025-12-13 09:43:17,133 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,134 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,135 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_product_variants_created_at ON product_variants (created_at)
+2025-12-13 09:43:17,138 - sqlalchemy.engine.Engine - INFO - [no key 0.00268s] ()
+2025-12-13 09:43:17,144 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,148 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,150 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_product_variants_created_at ON product_variants (created_at)', ())
+2025-12-13 09:43:17,161 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_product_variants_created_at ON product_variants (created_at)', ()) completed
+2025-12-13 09:43:17,163 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,165 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,174 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE messages (
+	conversation_id VARCHAR(36) NOT NULL, 
+	role VARCHAR(9) NOT NULL, 
+	content TEXT NOT NULL, 
+	message_type VARCHAR(8) NOT NULL, 
+	media_url VARCHAR(500), 
+	media_mime_type VARCHAR(100), 
+	language VARCHAR(10) NOT NULL, 
+	original_language VARCHAR(10), 
+	translated_content TEXT, 
+	intent VARCHAR(100), 
+	entities TEXT NOT NULL, 
+	sentiment FLOAT NOT NULL, 
+	confidence FLOAT NOT NULL, 
+	model_used VARCHAR(100), 
+	tokens_used INTEGER NOT NULL, 
+	response_time_ms INTEGER NOT NULL, 
+	products_mentioned TEXT NOT NULL, 
+	external_id VARCHAR(100), 
+	is_read BOOLEAN NOT NULL, 
+	read_at DATETIME, 
+	has_error BOOLEAN NOT NULL, 
+	error_message VARCHAR(500), 
+	id VARCHAR(36) NOT NULL, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	is_deleted BOOLEAN NOT NULL, 
+	deleted_at DATETIME, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(conversation_id) REFERENCES conversations (id)
+)
+
+
+2025-12-13 09:43:17,200 - sqlalchemy.engine.Engine - INFO - [no key 0.02627s] ()
+2025-12-13 09:43:17,203 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,204 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,206 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, '\nCREATE TABLE messages (\n\tconversation_id VARCHAR(36) NOT NULL, \n\trole VARCHAR(9) NOT NULL, \n\tcontent TEXT NOT NULL, \n\tmessage_type VARCHAR(8) NOT NULL, \n\tmedia_url VARCHAR(500), \n\tmedia_mime_type VARCHAR(100), \n\tlanguage VARCHAR(10) NOT NULL, \n\toriginal_language VARCHAR(10), \n\ttranslated_content TEXT, \n\tintent VARCHAR(100), \n\tentities TEXT NOT NULL, \n\tsentiment FLOAT NOT NULL, \n\tconfidence FLOAT NOT NULL, \n\tmodel_used VARCHAR(100), \n\ttokens_used INTEGER NOT NULL, \n\tresponse_time_ms INTEGER NOT NULL, \n\tproducts_mentioned TEXT NOT NULL, \n\texternal_id VARCHAR(100), \n\tis_read BOOLEAN NOT NULL, \n\tread_at DATETIME, \n\thas_error BOOLEAN NOT NULL, \n\terror_message VARCHAR(500), \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(conversation_id) REFERENCES conversations (id)\n)\n\n', ())
+2025-12-13 09:43:17,219 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, '\nCREATE TABLE messages (\n\tconversation_id VARCHAR(36) NOT NULL, \n\trole VARCHAR(9) NOT NULL, \n\tcontent TEXT NOT NULL, \n\tmessage_type VARCHAR(8) NOT NULL, \n\tmedia_url VARCHAR(500), \n\tmedia_mime_type VARCHAR(100), \n\tlanguage VARCHAR(10) NOT NULL, \n\toriginal_language VARCHAR(10), \n\ttranslated_content TEXT, \n\tintent VARCHAR(100), \n\tentities TEXT NOT NULL, \n\tsentiment FLOAT NOT NULL, \n\tconfidence FLOAT NOT NULL, \n\tmodel_used VARCHAR(100), \n\ttokens_used INTEGER NOT NULL, \n\tresponse_time_ms INTEGER NOT NULL, \n\tproducts_mentioned TEXT NOT NULL, \n\texternal_id VARCHAR(100), \n\tis_read BOOLEAN NOT NULL, \n\tread_at DATETIME, \n\thas_error BOOLEAN NOT NULL, \n\terror_message VARCHAR(500), \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(conversation_id) REFERENCES conversations (id)\n)\n\n', ()) completed
+2025-12-13 09:43:17,222 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,223 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,226 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_messages_created_at ON messages (created_at)
+2025-12-13 09:43:17,228 - sqlalchemy.engine.Engine - INFO - [no key 0.00193s] ()
+2025-12-13 09:43:17,236 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,237 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,238 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_messages_created_at ON messages (created_at)', ())
+2025-12-13 09:43:17,253 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_messages_created_at ON messages (created_at)', ()) completed
+2025-12-13 09:43:17,257 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,258 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,262 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_messages_conversation_id ON messages (conversation_id)
+2025-12-13 09:43:17,270 - sqlalchemy.engine.Engine - INFO - [no key 0.00758s] ()
+2025-12-13 09:43:17,271 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,271 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,278 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_messages_conversation_id ON messages (conversation_id)', ())
+2025-12-13 09:43:17,300 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_messages_conversation_id ON messages (conversation_id)', ()) completed
+2025-12-13 09:43:17,308 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,310 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,319 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_messages_external_id ON messages (external_id)
+2025-12-13 09:43:17,320 - sqlalchemy.engine.Engine - INFO - [no key 0.00135s] ()
+2025-12-13 09:43:17,321 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,322 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,326 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_messages_external_id ON messages (external_id)', ())
+2025-12-13 09:43:17,342 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_messages_external_id ON messages (external_id)', ()) completed
+2025-12-13 09:43:17,345 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,350 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,353 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_messages_role ON messages (role)
+2025-12-13 09:43:17,360 - sqlalchemy.engine.Engine - INFO - [no key 0.00630s] ()
+2025-12-13 09:43:17,369 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,370 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,371 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_messages_role ON messages (role)', ())
+2025-12-13 09:43:17,381 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_messages_role ON messages (role)', ()) completed
+2025-12-13 09:43:17,385 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,386 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,387 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_messages_id ON messages (id)
+2025-12-13 09:43:17,388 - sqlalchemy.engine.Engine - INFO - [no key 0.00089s] ()
+2025-12-13 09:43:17,391 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,392 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,394 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_messages_id ON messages (id)', ())
+2025-12-13 09:43:17,453 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_messages_id ON messages (id)', ()) completed
+2025-12-13 09:43:17,542 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,635 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,671 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE conversation_feedback (
+	conversation_id VARCHAR(36) NOT NULL, 
+	rating INTEGER NOT NULL, 
+	helpfulness INTEGER, 
+	response_quality INTEGER, 
+	resolution INTEGER, 
+	comment TEXT, 
+	submitted_by VARCHAR(50) NOT NULL, 
+	id VARCHAR(36) NOT NULL, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	is_deleted BOOLEAN NOT NULL, 
+	deleted_at DATETIME, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(conversation_id) REFERENCES conversations (id)
+)
+
+
+2025-12-13 09:43:17,732 - sqlalchemy.engine.Engine - INFO - [no key 0.06151s] ()
+2025-12-13 09:43:17,749 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,750 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,751 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, '\nCREATE TABLE conversation_feedback (\n\tconversation_id VARCHAR(36) NOT NULL, \n\trating INTEGER NOT NULL, \n\thelpfulness INTEGER, \n\tresponse_quality INTEGER, \n\tresolution INTEGER, \n\tcomment TEXT, \n\tsubmitted_by VARCHAR(50) NOT NULL, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(conversation_id) REFERENCES conversations (id)\n)\n\n', ())
+2025-12-13 09:43:17,766 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, '\nCREATE TABLE conversation_feedback (\n\tconversation_id VARCHAR(36) NOT NULL, \n\trating INTEGER NOT NULL, \n\thelpfulness INTEGER, \n\tresponse_quality INTEGER, \n\tresolution INTEGER, \n\tcomment TEXT, \n\tsubmitted_by VARCHAR(50) NOT NULL, \n\tid VARCHAR(36) NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tis_deleted BOOLEAN NOT NULL, \n\tdeleted_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(conversation_id) REFERENCES conversations (id)\n)\n\n', ()) completed
+2025-12-13 09:43:17,767 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,768 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,769 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_conversation_feedback_created_at ON conversation_feedback (created_at)
+2025-12-13 09:43:17,770 - sqlalchemy.engine.Engine - INFO - [no key 0.00101s] ()
+2025-12-13 09:43:17,771 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,772 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,773 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversation_feedback_created_at ON conversation_feedback (created_at)', ())
+2025-12-13 09:43:17,787 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversation_feedback_created_at ON conversation_feedback (created_at)', ()) completed
+2025-12-13 09:43:17,789 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,792 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,795 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_conversation_feedback_conversation_id ON conversation_feedback (conversation_id)
+2025-12-13 09:43:17,798 - sqlalchemy.engine.Engine - INFO - [no key 0.00309s] ()
+2025-12-13 09:43:17,799 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,799 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,801 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversation_feedback_conversation_id ON conversation_feedback (conversation_id)', ())
+2025-12-13 09:43:17,810 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversation_feedback_conversation_id ON conversation_feedback (conversation_id)', ()) completed
+2025-12-13 09:43:17,812 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,813 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,816 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_conversation_feedback_id ON conversation_feedback (id)
+2025-12-13 09:43:17,818 - sqlalchemy.engine.Engine - INFO - [no key 0.00210s] ()
+2025-12-13 09:43:17,819 - aiosqlite - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,820 - aiosqlite - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,821 - aiosqlite - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversation_feedback_id ON conversation_feedback (id)', ())
+2025-12-13 09:43:17,848 - aiosqlite - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x0000023E1F7A7CC0>, 'CREATE INDEX ix_conversation_feedback_id ON conversation_feedback (id)', ()) completed
+2025-12-13 09:43:17,850 - aiosqlite - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>)
+2025-12-13 09:43:17,851 - aiosqlite - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000023E1F7A7CC0>) completed
+2025-12-13 09:43:17,852 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-13 09:43:17,853 - aiosqlite - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,854 - aiosqlite - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,855 - aiosqlite - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000023E1F7756C0>)
+2025-12-13 09:43:17,859 - aiosqlite - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x0000023E1F7756C0>) completed
+2025-12-13 09:43:17,861 - app.core.database - INFO - Database tables created successfully
+2025-12-13 10:52:29,749 - app.main - INFO - [1765619549749586100] GET /docs
+2025-12-13 10:52:29,753 - app.main - INFO - [1765619549749586100] Completed 200 in 0.004s
+2025-12-13 10:52:31,785 - app.main - INFO - [1765619551785888600] GET /openapi.json
+2025-12-13 10:52:31,936 - app.main - INFO - [1765619551785888600] Completed 200 in 0.135s
+2025-12-13 11:00:12,641 - app.main - INFO - [1765620012641249500] GET /api/v1
+2025-12-13 11:00:12,653 - app.main - INFO - [1765620012641249500] Completed 404 in 0.012s
+2025-12-13 11:00:13,379 - app.main - INFO - [1765620013378729700] GET /favicon.ico
+2025-12-13 11:00:13,384 - app.main - INFO - [1765620013378729700] Completed 404 in 0.006s
+2025-12-13 11:00:46,296 - app.main - INFO - [1765620046296443600] GET /docs
+2025-12-13 11:00:46,298 - app.main - INFO - [1765620046296443600] Completed 200 in 0.002s
+2025-12-13 11:00:48,110 - app.main - INFO - [1765620048110965400] GET /openapi.json
+2025-12-13 11:00:48,155 - app.main - INFO - [1765620048110965400] Completed 200 in 0.044s

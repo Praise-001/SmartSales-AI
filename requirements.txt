@@ -1,0 +1,54 @@
+# SmartSales AI - Dependencies
+# =============================
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy[asyncio]==2.0.25
+aiosqlite==0.19.0  # Async SQLite for development
+asyncpg==0.29.0     # Async PostgreSQL for production
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# AI & Machine Learning
+groq==0.4.2                    # Groq API for LLaMA inference
+sentence-transformers==2.2.2   # Multilingual embeddings
+langdetect==1.0.9              # Language detection
+
+# WhatsApp/Twilio Integration
+twilio==8.11.0
+
+# HTTP Client
+httpx==0.26.0
+aiohttp==3.9.1
+
+# Environment & Configuration
+python-dotenv==1.0.0
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2024.1
+
+# Vector Database (optional)
+# pinecone-client==2.2.4
+
+# Development & Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+httpx==0.26.0  # For testing FastAPI
+
+# Code Quality
+black==24.1.0
+isort==5.13.2
+flake8==7.0.0
+mypy==1.8.0
+
+# Logging & Monitoring
+loguru==0.7.2
